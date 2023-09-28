@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import FirstModal from './components/firstModal'
+import FirstModal from './components/FirstModal'
 import Home from './pages/Home'
 import About from "./pages/About";
 import Habilidades from "./pages/Habilidades";
