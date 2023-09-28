@@ -11,7 +11,7 @@ const Home = () => {
         </p>
         <div className="article-redes">
           <div>
-            <a href="https://www.linkedin.com/in/fernando-mayorga-47b572210/"target="_blank"><box-icon
+            <a href="https://www.linkedin.com/in/fernando-mayorga-dev/"target="_blank"><box-icon
               name="linkedin"
               type="logo"
               flip="horizontal"
