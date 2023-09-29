@@ -1,4 +1,4 @@
-import Pokemon from "../assets/poke.png";
+import Pokemon from "../assets/Poke.png";
 import Crud from "../assets/crud.png";
 import Rick from "../assets/Rick.png";
 import Wheat from '../assets/wheather.png'
