@@ -18,7 +18,7 @@ body{
   height: 100%;
   z-index: -1;
 }
-video {
+.video-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -31,7 +31,7 @@ video {
   left: 30vw;
   font-size: 2.2rem;
   font-weight: bold;
-  color: black;
+  color: white;
   transition: 1s;
 }
 .intro-container.animar {
@@ -52,6 +52,10 @@ video {
 }
 .intro-text {
   text-align: center;
+  background-color: rgb(255, 255, 255,0.2);
+  backdrop-filter: blur(3px);
+  padding: 1rem;
+  border-radius: 1rem;
 }
 .contain-btn-firstModal {
   position: absolute;
@@ -59,12 +63,13 @@ video {
   right: 0;
 }
 .contain-btn-firstModal button {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-size: 1rem;
   height: 2.2rem;
   width: 7rem;
   transition: 0.2s;
+  font-weight: bold;
 }
 .contain-btn-firstModal button:hover {
   transform: scale(1.2);
@@ -241,7 +246,9 @@ video {
 }
 .article-skills-contain box-icon{
   width: 10rem;
+  
 }
+
 .skills-img{
   display: flex;
   justify-content: center;
@@ -425,6 +432,9 @@ main{
     padding: 1rem 1rem;
     gap: 1rem;
   }
+  .article-skills-contain div{
+    margin: 0 auto;
+  }
   .article-skills-contain box-icon{
     width: 9rem;
   }
@@ -465,16 +475,19 @@ main{
     height: 100vh;
   }
   .article-skills-contain{
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
     padding-bottom:2rem;
+  }
+  .article-skills-contain div  box-icon{
+    width: 2rem;
   }
   .skills-img{
     margin: 0 auto;
     width: 8rem;
   }
   .skills-img img{
-    width: 5rem;
+    display: none;
   }
   .article-skills-contain box-icon{
     width: 8rem;

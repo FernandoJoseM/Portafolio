@@ -1,5 +1,6 @@
 import video from "../assets/programing.mp4";
 import IntroModal from "./IntroModal";
+import code from '../assets/codigo.jpg'
 const FirstModal = ({setFirstModal,animarModal,setAnimarModal}) => {
     const handleIntroModal=()=>{
         setAnimarModal(false)
@@ -9,7 +10,7 @@ const FirstModal = ({setFirstModal,animarModal,setAnimarModal}) => {
     }
   return (
     <div className="video-container">
-      <video autoPlay loop src={video}></video>
+      <img src={code}></img>
       <IntroModal
       animarModal={animarModal}
       />
