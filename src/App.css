@@ -1,0 +1,10 @@
+.wasap{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.wasap a box-icon{
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}

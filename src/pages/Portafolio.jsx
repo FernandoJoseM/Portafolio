@@ -2,12 +2,62 @@ import Pokemon from "../assets/Poke.png";
 import Crud from "../assets/crud.png";
 import Rick from "../assets/Rick.png";
 import Wheat from '../assets/wheather.png'
-import Gastos from '../assets/Gastos.png'
 import Tv from'../assets/tvshow.png'
+import Comercio from '../assets/comercio.png'
 const Portafolio = () => {
   return (
     <main>
-      <section className="main-section">  
+      <section className="main-section"> 
+      <article className="proyect">
+          <section className="proyect-section">
+            <img src={Comercio} alt="" />
+          </section>
+          <section className="proyect-sectionDos">
+            <h2>
+              <span>
+                <box-icon
+                  name="react"
+                  type="logo"
+                  animation="flashing"
+                  color="#1bbdd0"
+                ></box-icon>
+              </span>{" "}
+              E-commerce
+            </h2>
+            <p>
+            E-commerce es un proyecto muy bien elaborado que me permite realizar una compra de los productos que se muestra  y que son consumidos desde una API en este caso se hizo uso de React Router y su opción de rutas protegidas  para lo que es el login y el register, este proyecto cuenta con un filtro de búsqueda para buscar productos por categorías  y por input  adicional se realio un crud para el tema del carrito con ayuda de useRedux y los thunks  cuenta con una sección de historial donde se muestra todo los productos que he comprado.
+
+            </p>
+          </section>
+          <section className="proyect-sectionTres">
+            <div>
+              <a
+                href="https://unique-panda-70ea9e.netlify.app/"
+                target="_blank"
+              >
+                <box-icon
+                  name="up-arrow-circle"
+                  animation="tada"
+                  color="#ffffff"
+                ></box-icon>
+                Ir al Proyecto
+              </a>
+            </div>
+            <div>
+              <a href="https://github.com/FernandoJoseM/E-commerce"target="_blank">
+                {" "}
+                <box-icon
+                  name="github"
+                  type="logo"
+                  animation="tada"
+                  flip="horizontal"
+                  color="#fffbfa"
+                ></box-icon>
+                Ir al GitHub
+              </a>
+            </div>
+          </section>
+        </article> 
         <article className="proyect">
           <section className="proyect-section">
             <img src={Pokemon} alt="" />
@@ -212,55 +262,6 @@ const Portafolio = () => {
             </div>
             <div>
               <a href="https://github.com/FernandoJoseM/api-clima" target="_blank">
-                {" "}
-                <box-icon
-                  name="github"
-                  type="logo"
-                  animation="tada"
-                  flip="horizontal"
-                  color="#fffbfa"
-                ></box-icon>
-                Ir al GitHub
-              </a>
-            </div>
-          </section>
-        </article>
-        <article className="proyect">
-          <section className="proyect-section">
-            <img src={Gastos} alt="" />
-          </section>
-          <section className="proyect-sectionDos">
-            <h2>
-              <span>
-                <box-icon
-                  name="react"
-                  type="logo"
-                  animation="flashing"
-                  color="#1bbdd0"
-                ></box-icon>
-              </span>
-              Planificador de Gastos
-            </h2>
-            <p>
-            Esta App fue diseñado con la finalidad de poder tener un control en cuanto al presupuesto se coloca un presupuesto apartir de eso podemos agregar ciertos gastos que hagamos cuenta con un progressbar la cual me ayudara a ver el porcentaje consumido un formulario para agegar nuevos gastos me permite editar o eliminar los gastos y cuenta con un filtro para traer diferentes gastos dependiendo de la categoria.
-            </p>
-          </section>
-          <section className="proyect-sectionTres">
-            <div>
-              <a
-                href="https://glittery-mooncake-4793b3.netlify.app/"
-                target="_blank"
-              >
-                <box-icon
-                  name="up-arrow-circle"
-                  animation="tada"
-                  color="#ffffff"
-                ></box-icon>
-                Ir al Proyecto
-              </a>
-            </div>
-            <div>
-              <a href="https://github.com/FernandoJoseM/Planificador-gastos"target="_blank">
                 {" "}
                 <box-icon
                   name="github"

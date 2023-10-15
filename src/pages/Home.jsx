@@ -1,4 +1,3 @@
-import "boxicons";
 const Home = () => {
   return (
     <article className="article">
@@ -32,7 +31,7 @@ const Home = () => {
       </div>
 
       <button className="article-btn">
-        <a href="https://drive.google.com/file/d/1sk9j8r4sNnLCWeFI1tkRCzjzEf7f4I1g/view?usp=sharing"target="_blank">
+        <a href="https://drive.google.com/file/d/1Xry7Ji0NrKNxbgT_kGgLJGMUcvR8UPuU/view?usp=sharing"target="_blank">
         <box-icon name='file-pdf' type='solid' animation='tada' flip='horizontal' color='#23414d' ></box-icon>
         Descargar C.V
         </a>

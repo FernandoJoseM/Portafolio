@@ -1,4 +1,3 @@
-import video from "../assets/programing.mp4";
 import IntroModal from "./IntroModal";
 import code from '../assets/codigo.jpg'
 const FirstModal = ({setFirstModal,animarModal,setAnimarModal}) => {
