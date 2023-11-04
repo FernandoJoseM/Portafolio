@@ -159,7 +159,7 @@ body{
   border-radius: 50%;
   border: 3px solid #23414D;
   position: absolute;
-  top:-5rem;
+  top:-7rem;
   left:50%;
   transform: translateX(-50%);
 }
@@ -220,7 +220,7 @@ body{
 }
 .about{
   background-color: black;
-  height: auto;
+  height: 60vh;
   color: white;
 }
 .content-text{
