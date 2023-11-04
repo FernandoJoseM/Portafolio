@@ -4,13 +4,7 @@ const About = () => {
       <div className="content-text">
         <h2 className="about-subtitle">Acerca de mí</h2>
         <p>
-          Desarrollador Fron-End con conocimientos en HTML, CSS y JavaScript.Soy
-          una persona que le gusta aprender por lo cuál siempre me mantengo en
-          constante aprendizaje,siempre buscando el mejor desempeño.Me considero
-          en parte una persona autodídacta que disfruta ver cuándo los proyectos
-          se logran.Me gusta trabajar en equipo e implementar mis conocimientos
-          para el bien común.Siento gran pasión por el desarrollo web por lo
-          cual amo lo que hago y espero mejorar día tras día.
+        Como Desarrollador Front-End con conocimientos en HTML, CSS y JavaScript, he trabajado en varios proyectos que me han proporcionado una sólida base para contribuir de manera efectiva a su equipo. Soy una persona ávida de conocimiento y siempre me esfuerzo por mantenerme al día con las últimas tendencias y tecnologías. Mi enfoque se centra en lograr el mejor rendimiento posible en cada tarea que emprendo. Me considero en parte autodidacta y encuentro gran satisfacción en ver cómo los proyectos se materializan con éxito. Disfruto colaborar con otros y compartir mis conocimientos para el beneficio colectivo. Mi pasión por el desarrollo web es innegable, y estoy comprometido a mejorar constantemente y superar mis habilidades día a día.
         </p>
       </div>
     </article>

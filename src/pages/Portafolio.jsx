@@ -25,7 +25,7 @@ const Portafolio = () => {
               E-commerce
             </h2>
             <p>
-            E-commerce es un proyecto muy bien elaborado que me permite realizar una compra de los productos que se muestra  y que son consumidos desde una API en este caso se hizo uso de React Router y su opción de rutas protegidas  para lo que es el login y el register, este proyecto cuenta con un filtro de búsqueda para buscar productos por categorías  y por input  adicional se realio un crud para el tema del carrito con ayuda de useRedux y los thunks  cuenta con una sección de historial donde se muestra todo los productos que he comprado.
+            E-commerce es un proyecto muy bien elaborado que me permite realizar una compra de los productos que se muestra  y que son consumidos desde una API en este caso se hizo uso de React Router y su opción de rutas protegidas  para lo que es el login y el register.
 
             </p>
           </section>
@@ -79,13 +79,7 @@ const Portafolio = () => {
               por completo con todos los Pokémon existentes y que son consumidos
               desde la API oficial de Pokémon. En esta ocasión se hizo uso de
               React Router y su opción de rutas protegidas para forzar el
-              registro virtual del usuario con su nombre. Además, esta página
-              contiene una opción de búsqueda por nombre Pokémon con un campo de
-              escritura. Pero también, la App cuenta con un filtro select que
-              permite elegir entre los 20 tipos diferentes de Pokémon. Puedes
-              también acceder a la información detallada de cada personaje. Es
-              importante destacar el uso de Redux, React Router, useSelect y los
-              hooks habituales useEffect y useState.
+              registro virtual del usuario con su nombre.
             </p>
           </section>
           <section className="proyect-sectionTres">
@@ -137,9 +131,7 @@ const Portafolio = () => {
               Users CRUD Control es un CRUD muy sencillo que simula un centro de
               control de usuarios. Este permite la visualización de la
               información consumida desde una API. Además, es posible crear,
-              actualizar y eliminar cualquier usuario de la lista. La aplicación
-              fue desarrollada con React, haciendo uso de useForm y también como
-              es costumbre, dos hooks más usados en React, useState y useEffect.
+              actualizar y eliminar cualquier usuario de la lista.
             </p>
           </section>
           <section className="proyect-sectionTres">
@@ -190,11 +182,7 @@ const Portafolio = () => {
             <p>
               Permite explorar los diferentes universos de la serie. Es una
               página que consume la API de Rick and Morty. La idea es poder ver
-              las 126 dimensiones por las cuales viajan estos dos personajes. La
-              app fue construida haciendo uso de Vite con React. Además se hizo
-              uso de hooks, customhooks y componentes para darle estructura y
-              orden. También, es importante decir que las peticiones son
-              realizadas con axios.
+              las 126 dimensiones por las cuales viajan estos dos personajes.
             </p>
           </section>
           <section className="proyect-sectionTres">
@@ -243,7 +231,7 @@ const Portafolio = () => {
               wheather App
             </h2>
             <p>
-            Esta pequeña App del tiempo fue realizada con React y sus principales Hooks como useState y useEffect. La App está conectada a una API que detecta automáticamente nuestra ubicación. Por supuesto, esta App ofrece información relevante como los vientos, la presión atmosférica y también ofrece la posibilidad de alternar entre grados F° o C°.
+            Esta pequeña App del tiempo fue realizada con React y sus principales Hooks como useState y useEffect. La App está conectada a una API que detecta automáticamente nuestra ubicación.
             </p>
           </section>
           <section className="proyect-sectionTres">

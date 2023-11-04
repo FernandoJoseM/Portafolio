@@ -145,7 +145,7 @@ body{
   font-weight: bold;
 }
 .article{
-  background-color: #23414D;
+  background-color: black;
   height: 60vh;
   position: relative;
 }
@@ -208,7 +208,7 @@ body{
 }
 .article-btn a{
   text-decoration: none;
-  color: #23414D;
+  color: black;
 }
 .article-btn:hover{
   font-size:1.7rem;
@@ -219,8 +219,8 @@ body{
   left: 5%;
 }
 .about{
-  background-color: #23414D;
-  height: 60vh;
+  background-color: black;
+  height: auto;
   color: white;
 }
 .content-text{
@@ -238,8 +238,8 @@ body{
   font-size: 1.4rem;
 }
 .article-skills{
-  background-color: #23414D;
-  height: 60vh;
+  background-color: black;
+  height: auto;
   color: white;
 }
 .article-skills-contain{
@@ -262,7 +262,7 @@ body{
   width: 10rem;
 }
 main{
-  background-color: #23414D;
+  background-color: black;
 }
 .main-section{
   display: grid;
@@ -273,8 +273,8 @@ main{
 .proyect{
   height:auto;
   width: 30vw;
-  background-color:#142A75;
-  border: 0.5rem solid #142A75;
+  background-color: rgba(8, 8, 8, 1);
+  border: 1px solid white;
   color: white;
   margin-top: 2rem;
 }
@@ -310,7 +310,7 @@ main{
   text-decoration: none;
 }
 .article-form{
-  background-color: #23414D;
+  background-color: black;
   height: 90vh;
   padding-top:1rem;
 }
@@ -324,8 +324,9 @@ main{
   margin: 0 auto;
   padding-top: 1rem;
   border-radius: 1rem;
-  background-color: rgb(255, 255, 255,0.2);
-  backdrop-filter: blur(3px);
+  /* background-color: rgb(255, 255, 255,0.2);
+  backdrop-filter: blur(3px); */
+  border: 1px solid white;
   color: white;
 }
 .formulario legend{

@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <article className="article">
+    <article className='article'>
       <div className="article-img"></div>
       <div className="article-texto">
         <h1>¡Hola a todos!</h1>
@@ -31,7 +31,7 @@ const Home = () => {
       </div>
 
       <button className="article-btn">
-        <a href="https://drive.google.com/file/d/1Xry7Ji0NrKNxbgT_kGgLJGMUcvR8UPuU/view?usp=sharing"target="_blank">
+        <a href="https://drive.google.com/file/d/1RiN7ridP5czqKell6kfOMKMPWFlAEQiD/view?usp=sharing"target="_blank">
         <box-icon name='file-pdf' type='solid' animation='tada' flip='horizontal' color='#23414d' ></box-icon>
         Descargar C.V
         </a>

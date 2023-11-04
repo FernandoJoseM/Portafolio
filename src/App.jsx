@@ -21,9 +21,9 @@ function App() {
         />
       ) : (
         <>
-          <Header />
+          <Header/>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home/>} />
             <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Habilidades />} />
             <Route path="/experience" element={<Portafolio />} />
